@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-string name ;
-cout<<"enter your name :\n";
-cin>>name;
-cout<<"hi "<<name<<" \n";
-cout<<"welcome";
+bool a=true;
+// cout<<std::boolalpha;
+cout<<a<<"\n";
+cout<<std::noboolalpha;
+cout<<a;
 return 0;
 }
